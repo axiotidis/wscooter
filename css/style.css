@@ -28,8 +28,8 @@ body {
 }
 
 .grid--item__centered {
-  width: 200px;
-  height: 200px;
+  width: 360px;
+  height: 3600px;
   background: #770f0f;
   border: 2px solid white;
   border-radius: 8px;
