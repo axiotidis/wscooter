@@ -55,3 +55,9 @@ body {
   margin: 4px 2px;
   cursor: pointer;
 }
+.button-wrapper {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    border: none;
+}
