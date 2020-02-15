@@ -42,10 +42,16 @@ body {
   
 }
 .mybutton {
-    width:100%;
-    padding:1em;
-    border:1px solid #c9e6ff;
-    background:#c9e6ff;
-    border:0;
-    font-size: 18px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  bottom: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
