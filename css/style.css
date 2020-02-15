@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.grid--container {
+  /* set grid and center children */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  
+  /*styles for demo*/
+  width: 80vw;
+  min-height: 90vh;
+  margin: 5vh auto;
+  padding: 2vh;
+  background: #ccc;
+  
+  /*center text in line*/
+  text-align: center;
+}
+
+.grid--item__centered {
+  width: 200px;
+  height: 200px;
+  background: #770f0f;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 2vh;
+  
+  /*center text in item with flexbox*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.mybutton {
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+    background:#c9e6ff;
+    border:0;
+    font-size: 18px;
+}
