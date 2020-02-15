@@ -103,7 +103,7 @@ function setPosition(position) {
   lat = position.coords.latitude.toString();		//find latitude
   lng = position.coords.longitude.toString();		//find lognitude
   var marker = new L.marker([lat, lng], {icon: redIcon}).addTo(map);	//set a marker in current geoposition
-  //var mypopup = "You are here";
+  var mypopup = "You are here";
   map.setView([lat, lng], zoom);			//Zoom map in the current geoposition
   marker.bindPopup(mypopup);
 }
