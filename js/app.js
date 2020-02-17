@@ -14,7 +14,7 @@ var sBat = 0;
 var sBooked = "";
 var sId = 0;
 
-var zoom = 16;		//set zoom level
+var zoom = 17;		//set zoom level
 var myPosition = 0;	//set an initial value of user's location
 
 
