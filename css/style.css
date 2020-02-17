@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   
-  /*styles for demo*/
+  
   width: 80vw;
   min-height: 90vh;
   margin: 5vh auto;
@@ -57,7 +57,7 @@ body {
 }
 #image-wrapper {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     border: none;
 }
