@@ -37,7 +37,7 @@ body {
   
   /*center text in item with flexbox*/
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   
 }
