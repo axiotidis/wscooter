@@ -55,6 +55,12 @@ body {
   margin: 4px 2px;
   cursor: pointer;
 }
+#image-wrapper {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    border: none;
+}
 #button-wrapper {
     position: absolute;
     bottom: 50px;
