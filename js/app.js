@@ -48,7 +48,8 @@ var myPosition = 0;	//set an initial value of user's location
     }
     
   } else {
-    location.replace("signin.html");
+    //location.replace("signin.html");
+	  alert("login failed");
   }
 });
 
