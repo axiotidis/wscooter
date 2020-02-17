@@ -27,7 +27,7 @@ body {
   text-align: center;
 }
 
-.grid--item__centered {
+.grid--item__centered_up {
   width: 360px;
   height: 360px;
   background: #ffffff;
@@ -38,6 +38,20 @@ body {
   /*center text in item with flexbox*/
   display: flex;
   align-items: flex-start;
+  justify-content: center;
+  
+}
+.grid--item__centered {
+  width: 360px;
+  height: 360px;
+  background: #ffffff;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 2vh;
+  
+  /*center text in item with flexbox*/
+  display: flex;
+  align-items: center;
   justify-content: center;
   
 }
