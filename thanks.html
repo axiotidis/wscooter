@@ -10,7 +10,7 @@
 <body>
   
   <div class="grid--container">
-    <div class="grid--item__centered">
+    <div class="grid--item__centered_up">
         <p>Thanks for your<br>
         payment</p>    
     </div>
@@ -40,7 +40,6 @@ https://firebase.google.com/docs/web/setup#config-web-app -->
 
 <script type="text/javascript">
   firebase.auth().signOut().then(function()  {
-    alert('You have logged out successfully');
     location.replace("index.html");
 }).catch(function(error) {
   alert(error);
