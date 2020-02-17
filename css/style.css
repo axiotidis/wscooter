@@ -57,7 +57,7 @@ body {
 }
 #image-wrapper {
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     width: 100%;
     border: none;
 }
