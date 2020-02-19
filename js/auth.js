@@ -5,3 +5,4 @@ firebase.auth().signInWithEmailAndPassword(email, password)
  .catch(function(err) {
    alert("Login failed");
  });
+location.replace("app.html");
