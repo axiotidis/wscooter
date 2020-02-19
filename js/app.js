@@ -41,10 +41,10 @@ var myPosition = 0;	//set an initial value of user's location
     var name = user.name;
     if (email != null){
       var message = 'Welcome user ' + email;
-      alert(message);
+      //alert(message);
     }else if(name != null){
       var message = 'Welcome user ' + name;
-      alert(message);
+      //alert(message);
     }
     
   } else {
