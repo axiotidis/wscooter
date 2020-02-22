@@ -53,7 +53,7 @@ let database = firebase.database();
     function unlock(){
       //change the "Booked" value of patini with sn 6 in firebase
       database.ref("scooters/5/").update({ 
-        Booked : Booked
+        Booked : "Yes"
       });
       window.location.replace("riding.html");
     }
