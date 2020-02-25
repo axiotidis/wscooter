@@ -37,22 +37,6 @@ https://firebase.google.com/docs/web/setup#config-web-app -->
   
   </div>
   <script>
-    // Your web app's Firebase configuration
-/*var firebaseConfig = {
-  apiKey: "AIzaSyDU1RPg4avyJA4Dv4DCGtGb2nnne8FZCfk",
-  authDomain: "escooter-d43d9.firebaseapp.com",
-  databaseURL: "https://escooter-d43d9.firebaseio.com",
-  projectId: "escooter-d43d9",
-  storageBucket: "escooter-d43d9.appspot.com",
-  messagingSenderId: "27699640672",
-  appId: "1:27699640672:web:05eb2d79cca519e28d4605",
-  measurementId: "G-F2V4WNEBRW"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-// Get a reference to the database service*/
-/////////////////////////////////////////////////let database = firebase.database();
-    
     function tapToLock(){
       //change the "Booked" value of patini with sn 6 in firebase
       database.ref("scooters/5/").update({ 
